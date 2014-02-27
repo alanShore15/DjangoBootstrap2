@@ -14,6 +14,7 @@ Bootstrap files have been added in the 'static' folder and the 'base.html' file 
 To check if this actually works, just add 
 
 from django.views.generic import TemplateView
+
 url(r'^base/', TemplateView.as_view(template_name="base.html")),
 
 in your urls.py file and run http://localhost:8000/base/ or http://127.0.0.1:8000/base/ on your local machine.
